@@ -1,10 +1,58 @@
 # Early Market Signal Discovery Workflow OS
 
-> Inspired by the [a16z Speedrun](https://speedrun.substack.com/) program's approach to early market discovery — finding startup opportunities before a category name exists.
+> Inspired by the a16z Speedrun article [Early-stage markets rarely look like markets](https://speedrun.substack.com/p/early-stage-markets-rarely-look-like-markets) — finding startup opportunities before a category name exists.
 
 This folder turns the early-market-signal playbook into a lightweight research operating system. Use it to notice small groups changing behavior before analysts, incumbents, or investors have a clean market category for the behavior.
 
 The doctrine is simple: behavior before category, intensity before scale, demand before hype.
+
+## Installation
+
+**Prerequisites:** [Claude Code](https://claude.ai/code) installed and running.
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/az9713/early-market-signal.git
+cd early-market-signal
+```
+
+### 2. Install the skills
+
+The `skills/` folder contains seven Claude Code skills that power the workflow. Copy them to your Claude skills directory so they are available in every session.
+
+**Mac / Linux:**
+```bash
+cp -r skills/ems-* ~/.claude/skills/
+```
+
+**Windows (PowerShell):**
+```powershell
+Copy-Item -Recurse skills\ems-* $env:USERPROFILE\.claude\skills\
+```
+
+### 3. Verify
+
+Start a Claude Code session in the cloned directory and type:
+
+```
+What ems skills are available?
+```
+
+Claude should list all seven skills. If it does not, check that the `~/.claude/skills/` directory contains the `ems-*` folders.
+
+### 4. Start your first scan
+
+Open Claude Code in the cloned directory — the workflow files (`source_map.csv`, `weirdness_ledger.md`, `signal_scorecard.csv`) are your live data layer. Then describe a behavioral frontier:
+
+```
+Scan for evidence around people who are maintaining handwritten memory
+files around AI coding agents because the agents keep losing context.
+```
+
+See `USER_GUIDE.md` for a full first-run walkthrough.
+
+---
 
 ## What This Is For
 
