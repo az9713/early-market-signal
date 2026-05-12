@@ -1,0 +1,3 @@
+signal_id,signal_name,evidence_url,rough_ux_tolerated,user_tutorials,incumbent_replacement,api_integration_requests,hacked_use_cases,vocabulary_forming,copycats_appearing,outside_curiosity_growing,total_score,interpretation,next_action,notes
+S001,"Developers maintain custom memory/handoff files around coding agents","https://github.com/anthropics/claude-code/issues",2,1,1,1,2,1,1,1,10,"early market candidate","interview users","Seed example. Validate with specific issue threads, Reddit posts, and user interviews before treating as confirmed demand."
+

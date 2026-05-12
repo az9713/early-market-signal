@@ -1,0 +1,3 @@
+community,url,topic_cluster,repeated_pain,workaround,evidence,tool_or_process_replaced,user_sophistication,monetization_hint,category_maturity,notes,next_action
+"anthropics/claude-code GitHub issues","https://github.com/anthropics/claude-code/issues","agent memory/context","Agents lose or mishandle project state across long-running work","Users create persistent memory files, custom instructions, hooks, and issue-search habits","Multiple issue threads discuss context, reliability, docs, usage, and workflow regressions","Manual project notes, human code review, ad hoc session handoffs","developer/prosumer","paid memory layer, workflow guardrails, team handoff tool","emerging","Seed example. Replace with specific issue URLs and quotes during a scan.","watch"
+
