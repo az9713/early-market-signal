@@ -1,6 +1,6 @@
 # Early Market Signal Discovery Workflow OS
 
-> Inspired by the [a16z Speedrun](https://speedrun.a16z.com/) program's approach to early market discovery — finding startup opportunities before a category name exists.
+> Inspired by the [a16z Speedrun](https://speedrun.substack.com/) program's approach to early market discovery — finding startup opportunities before a category name exists.
 
 This folder turns the early-market-signal playbook into a lightweight research operating system. Use it to notice small groups changing behavior before analysts, incumbents, or investors have a clean market category for the behavior.
 
