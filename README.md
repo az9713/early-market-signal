@@ -71,7 +71,7 @@ Steps 1–4 repeat as new scans add evidence. Steps 5–7 activate when a signal
 "Scan for evidence around people maintaining memory files around AI coding agents"
 → triggers ems-scan
 
-"How strong is S001?"
+"How strong is the agent-memory signal?"
 → triggers ems-score
 
 "Are there patterns across the ledger?"
@@ -80,13 +80,13 @@ Steps 1–4 repeat as new scans add evidence. Steps 5–7 activate when a signal
 "What should I do next with each signal?"
 → triggers ems-decide
 
-"Prepare interviews for S002"
+"Prepare interviews for the last-mile app signal"
 → triggers ems-interview
 
 "Turn the agent-memory cluster into a thesis"
 → triggers ems-thesis
 
-"S002 interviews showed urgency — write me an offer"
+"Interviews on the last-mile app signal showed urgency — write me an offer"
 → triggers ems-concierge
 ```
 
