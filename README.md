@@ -115,28 +115,15 @@ Steps 1–4 repeat as new scans add evidence. Steps 5–7 activate when a signal
 
 ### Example Invocations
 
-```text
-"Scan for evidence around people maintaining memory files around AI coding agents"
-→ triggers ems-scan
-
-"How strong is the agent-memory signal?"
-→ triggers ems-score
-
-"Are there patterns across the ledger?"
-→ triggers ems-cluster
-
-"What should I do next with each signal?"
-→ triggers ems-decide
-
-"Prepare interviews for the last-mile app signal"
-→ triggers ems-interview
-
-"Turn the agent-memory cluster into a thesis"
-→ triggers ems-thesis
-
-"Interviews on the last-mile app signal showed urgency — write me an offer"
-→ triggers ems-concierge
-```
+| Invocation | Skill | Output |
+| --- | --- | --- |
+| "Scan for evidence around people maintaining memory files around AI coding agents" | `ems-scan` | [`source_map.csv`](source_map.csv), [`weirdness_ledger.md`](weirdness_ledger.md) |
+| "How strong is the agent-memory signal?" | `ems-score` | [`signal_scorecard.csv`](signal_scorecard.csv) |
+| "Are there patterns across the ledger?" | `ems-cluster` | [`signal_scorecard.csv`](signal_scorecard.csv) (next_action fields updated) |
+| "What should I do next with each signal?" | `ems-decide` | [`signal_scorecard.csv`](signal_scorecard.csv) (next_action fields updated) |
+| "Prepare interviews for the last-mile app signal" | `ems-interview` | [`interview_plan_S002_S003_builders.md`](interview_plan_S002_S003_builders.md) |
+| "Turn the agent-memory cluster into a thesis" | `ems-thesis` | [`thesis-developer-maintained-agent-memory.md`](thesis-developer-maintained-agent-memory.md) |
+| "Interviews on the last-mile app signal showed urgency — write me an offer" | `ems-concierge` | [`concierge_offer_agent_memory.md`](concierge_offer_agent_memory.md) |
 
 See `SKILLS_GUIDE.md` for the full conversion reference and more workflow examples.
 
